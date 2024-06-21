@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QuickWeb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <nav>
+      <div class="navbar">
+        <div class="section-1">
+          <h1 class="logo-h1">QuickWeb</h1>
+        </div>
+        <div class="section-2">
+          <button id="btn-toggle-parallax">OFF Parallax</button>
+        </div>
+      </div>
+    </nav>
+    <div class="container first parallax">
+      <h1 class="welcome-h1">Welcome to <span>QuickWeb</span></h1>
+      <p class="h3">
+        Are you ready to dive into the exciting world of web development?
+        Whether you're a complete beginner or looking to sharpen your skills,
+        WebDevStart is your go-to destination for learning how to create
+        stunning, functional websites using HTML, CSS, and JavaScript.
+      </p>
+      <!-- <a href="#">Learn more</a> -->
+    </div>
+
+    <div class="container second parallax">
+      <div class="header-text">
+        <h2>Why Learn Web Development?</h2>
+        <p>
+          In today's digital age, web development is a crucial skill. Here's why
+          you should start learning today:
+        </p>
+      </div>
+      <div class="text-web content-start">
+        <div>
+          <p class="content-title">High Demand</p>
+          <p class="content-body">
+            Web developers are in high demand across various industries.
+          </p>
+        </div>
+      </div>
+      <div class="text-web content-end">
+        <div>
+          <p class="content-title">Creativity and Innovation</p>
+          <p class="content-body">
+            Web development allows you to bring your creative ideas to life.
+          </p>
+        </div>
+      </div>
+      <div class="text-web content-start">
+        <div>
+          <p class="content-title">Flexibility</p>
+          <p class="content-body">
+            Enjoy the flexibility of working remotely or as a freelancer.
+          </p>
+        </div>
+      </div>
+      <div class="text-web content-end">
+        <div>
+          <p class="content-title">Career Advancement</p>
+          <p class="content-body">
+            Enhance your career prospects and open doors to new opportunities.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container third parallax">
+      <h2>Getting Started with HTML</h2>
+      <div>
+        <h3 class="sky h3">Introduction to HTML</h3>
+        <p>
+          HTML (HyperText Markup Language) is the standard language for creating
+          web pages. It describes the structure of a webpage using elements like
+          headings, paragraphs, links, and images.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="sky h3">Basic HTML Elements</h3>
+        <ul class="sky">
+          <li>
+            Headings:
+            <span class="gold"
+              >Define headings with &lt;h1&gt; to &lt;h6&gt;.</span
+            >
+          </li>
+          <li>
+            Paragraphs:
+            <span class="gold">Use &lt;p&gt;for paragraphs.&lt;/p&gt;</span>
+          </li>
+          <li>
+            Links:
+            <span class="gold"
+              >Create hyperlinks with &lt;a href="url"&gt;link
+              text&lt;/a&gt;.</span
+            >
+          </li>
+          <li>
+            Images:
+            <span class="gold"
+              >Embed images using &lt;img src="url" alt="description"&gt;.</span
+            >
+          </li>
+        </ul>
+      </div>
+
+      <div class="card-container">
+        <h3 class="sky h3">Building Your First Webpage</h3>
+        <div class="card">
+          <div class="header">
+            <div class="top">
+              <div class="circle">
+                <span class="red circle2"></span>
+              </div>
+              <div class="circle">
+                <span class="yellow circle2"></span>
+              </div>
+              <div class="circle">
+                <span class="green circle2"></span>
+              </div>
+              <div class="title">
+                <p id="title2">index.html</p>
+              </div>
+            </div>
+          </div>
+          <div class="code-container">
+            <textarea
+              class="area"
+              style="height: 310px"
+              id="code"
+              name="code"
+              readonly=""
+            >
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;My First Webpage&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Welcome to My Webpage&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph of text.&lt;/p&gt;
+    &lt;a href="https://www.example.com"&gt;
+    Visit Example&lt;/a&gt;
+    &lt;img src="image.jpg" alt="Example 
+    Image"&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+          </textarea
+            >
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">Practice Exercises</h3>
+        <ol>
+          <li>
+            Create a simple webpage with a title, a heading, and a few
+            paragraphs.
+          </li>
+          <li>Add a list of your favorite websites with hyperlinks.</li>
+          <li>Insert an image and provide alternative text for it.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="container fourth third parallax">
+      <h2 class="sky h2">Styling with CSS</h2>
+      <div>
+        <h3 class="h3 sky">Introduction to CSS</h3>
+        <p>
+          CSS (Cascading Style Sheets) is used to style and layout web pages. It
+          allows you to apply styles to HTML elements, such as colors, fonts,
+          and spacing.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">Basic CSS Syntax</h3>
+        <ul class="sky">
+          <li>
+            Selectors:
+            <span class="gold">Target HTML elements to apply styles.</span>
+          </li>
+          <li>
+            Properties:
+            <span class="gold">Define the style characteristics.</span>
+          </li>
+          <li>
+            Values: <span class="gold">Specify the value for a property.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="card-container">
+          <h3 class="h3 sky">Example:</h3>
+          <div class="card">
+            <div class="header">
+              <div class="top">
+                <div class="circle">
+                  <span class="red circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="green circle2"></span>
+                </div>
+                <div class="title">
+                  <p id="title2">style.css</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <textarea class="area" id="code" name="code" readonly="">
+h1 {
+    color: blue;
+    font-size: 24px;
+  }
+  
+p {
+    color: gray;
+    line-height: 1.5;
+  }
+            </textarea
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">Applying CSS to HTML</h3>
+        <p>Link a CSS file to your HTML document:</p>
+        <div class="card-container">
+          <div class="card">
+            <div class="header">
+              <div class="top">
+                <div class="circle">
+                  <span class="red circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="green circle2"></span>
+                </div>
+                <div class="title">
+                  <p id="title2">index.html</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <textarea
+                class="area"
+                id="code"
+                name="code"
+                readonly=""
+                style="height: 120px"
+              >
+&lt;head&gt;
+ &lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+  
+            </textarea
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">Practice Exercises</h3>
+        <ol>
+          <li>Style a webpage with different colors, fonts, and spacing.</li>
+          <li>Create a responsive layout using Flexbox.</li>
+          <li>Design a grid-based layout for a photo gallery.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="container fifth third parallax">
+      <h2 class="sky">JavaScript Basics</h2>
+
+      <div>
+        <h3 class="h3 sky">Introduction to JavaScript</h3>
+        <p>
+          JavaScript is a powerful programming language used to create
+          interactive and dynamic web pages. It allows you to manipulate HTML
+          and CSS, handle events, and perform complex calculations.
+        </p>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">Basic JavaScript Syntax</h3>
+        <ul class="sky">
+          <li>Variables: <span class="gold">Store data values.</span></li>
+          <li>
+            Functions: <span class="gold">Define reusable blocks of code.</span>
+          </li>
+          <li>
+            Events: <span class="gold">Respond to user interactions.</span>
+          </li>
+        </ul>
+      </div>
+
+      <div>
+        <div class="card-container">
+          <h3 class="h3 sky">Example:</h3>
+          <div class="card">
+            <div class="header">
+              <div class="top">
+                <div class="circle">
+                  <span class="red circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="green circle2"></span>
+                </div>
+                <div class="title">
+                  <p id="title2">script.js</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <textarea
+                class="area"
+                style="height: 130px"
+                id="code"
+                name="code"
+                readonly=""
+              >
+let message = "Hello, World!";
+function showMessage() {
+  alert(message);
+}
+            </textarea
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">Manipulating the DOM</h3>
+        <p>Use JavaScript to change HTML content and styles:</p>
+        <div class="card-container">
+          <div class="card">
+            <div class="header">
+              <div class="top">
+                <div class="circle">
+                  <span class="red circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="green circle2"></span>
+                </div>
+                <div class="title">
+                  <p id="title2">script.js</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <textarea
+                class="area"
+                style="height: 90px"
+                id="code"
+                name="code"
+                readonly=""
+              >
+document.getElementById("demo").innerHTML = "Hello, JavaScript!";
+            </textarea
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">Handling Events</h3>
+        <p>Add interactivity to your web pages:</p>
+        <div class="card-container">
+          <div class="card">
+            <div class="header">
+              <div class="top">
+                <div class="circle">
+                  <span class="red circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="yellow circle2"></span>
+                </div>
+                <div class="circle">
+                  <span class="green circle2"></span>
+                </div>
+                <div class="title">
+                  <p id="title2">script.js</p>
+                </div>
+              </div>
+            </div>
+            <div class="code-container">
+              <textarea
+                class="area"
+                style="height: 100px"
+                id="code"
+                name="code"
+                readonly=""
+              >
+document.getElementById("myButton").onclick = function() {
+  alert("Button clicked!");
+};
+            </textarea
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">Practice Exercises</h3>
+        <ol>
+          <li>Create a button that displays an alert when clicked.</li>
+          <li>Write a script to change the content of a paragraph.</li>
+          <li>Create a simple form validation script.</li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="container sixth third parallax">
+      <h2 class="sky">Build Your First Projects</h2>
+
+      <div>
+        <h3 class="h3 sky">HTML Project: Personal Portfolio</h3>
+        <p>
+          Create a personal portfolio website using HTML. Include sections like:
+        </p>
+        <ul>
+          <li>About Me</li>
+          <li>Projects</li>
+          <li>Contact Information</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">CSS Project: Responsive Webpage</h3>
+        <p>
+          Build a responsive webpage using advanced CSS techniques. Focus on:
+        </p>
+        <ul>
+          <li>Flexbox and Grid layouts</li>
+          <li>Media queries for different screen sizes</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">JavaScript Project: Interactive To-Do List</h3>
+        <p>
+          Develop an interactive to-do list application with JavaScript.
+          Features:
+        </p>
+        <ul>
+          <li>Add and remove tasks</li>
+          <li>Mark tasks as complete</li>
+          <li>Store tasks in local storage</li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="h3 sky">Final Project: Personal Website</h3>
+        <p>
+          Combine your HTML, CSS, and JavaScript skills to build a comprehensive
+          personal website. Include interactive elements and ensure it is
+          responsive.
+        </p>
+        <ul>
+          <li>Add and remove tasks</li>
+          <li>Mark tasks as complete</li>
+          <li>Store tasks in local storage</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer">
+        <div class="footer-text">
+          Developed with <span id="heart"><i class="fa fa-heart"></i></span> by
+          Vansh Chauhan, Thank You!
+        </div>
+        <div class="footer-icons">
+          <a
+            href="https://www.linkedin.com/in/vansh-chauhan-741a5b257/"
+            target="_blank"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/VanshChauhan-1106" target="_blank"
+            ><i class="fa-brands fa-github-square"></i
+          ></a>
+          <a href="https://www.instagram.com/vansh_.chauhan_/" target="_blank"
+            ><i class="fa-brands fa-square-instagram"></i
+          ></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
